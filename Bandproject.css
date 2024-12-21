@@ -1,0 +1,406 @@
+body{
+    margin:-16px;
+    padding: 0px;
+    overflow-x: hidden;
+}
+a{
+    text-decoration: none;
+    color: whitesmoke;
+}
+a:hover{
+    color: rgb(0, 0, 0);
+}
+
+
+/* .navbar{
+    position: fixed;
+} */
+ /* if navbar to be needed fixed */
+ul{
+    background-color: rgb(26, 26, 26);
+    color: white;
+    list-style-type:none;
+}
+ul li{
+    display: inline-block;
+    padding: 20px;
+
+}
+ul li:hover{
+    background-color: rgb(168, 167, 167);
+    color: rgb(0, 0, 0);
+}
+.dropdown ul{
+background-color: aliceblue;
+}
+.dropdown{
+    display: none;
+    box-shadow: 3px 3px 5px rgba(41, 41, 41, 0.3); 
+}
+ ul li:hover .dropdown{
+    display: block;
+    position: absolute;
+    margin-left: -20px;
+    margin-top: 20px;
+
+}
+ .dropdown li:hover{
+color: black;
+
+ }
+
+.dropdown ul{
+margin: 0px;
+padding: 0px;
+
+}
+.dropdown ul li{
+    display: block;
+color: rgb(0, 0, 0);
+}
+    li{
+        font-size: 18px;
+    }
+
+ .search_icon{
+    width: 31px;
+    height: 31px;
+    position: absolute;
+    left: 1460px;
+top: 0px;
+padding: 15px;
+ }
+ .search_icon:hover{
+    background-color: red;
+ }
+ .smlimg::after{
+    content:"\25BE";
+ 
+   position: relative;
+   left: 5px;
+ }
+/* 
+.empty{
+    width: 1477;
+    height: 70px;
+    background-color: black;
+    z-index: -1;
+    position: relative;
+    bottom: 100px;
+} */
+
+
+
+.myslide img {
+    width: 1600px;
+    height: 800px;
+}
+.myslide{
+    display: none;
+    position: relative;
+    bottom: 17px;
+    z-index: -1;
+}
+
+.myslide.active{
+    display: block;
+    opacity: 1.0;
+}
+.text{
+    position: absolute;
+    left: 650px;
+    bottom: 20px;
+    text-align: center;
+    color: aliceblue;
+    font-family:  'calibri', sans-serif;
+
+}
+h3{
+   font-family:  'Verdana', sans-serif ; 
+    font-size: 30px;
+}
+
+.bandtxt {
+    text-align: center;
+    position: relative;
+    top: 40px; 
+}
+.bandtxt h3{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.bandtxt i{
+    color: rgb(109, 109, 109);
+    font-size: 18px;
+}
+
+.bandtxt p {
+    position: relative;
+    top: 10px;
+    text-align: center;
+    line-height: 0.5;
+    font-size: 17px;
+    font-family: 'calibri', sans-serif ;
+}
+
+.img{
+    display: flex;
+    justify-content:space-evenly;
+    position: relative;
+    top: 70px;
+    text-align: center;
+    margin-bottom: 200px;
+}
+
+.i1{
+    height: 150px;
+    width: 150px;
+}
+
+.tour 
+{
+    background-color: black;
+    height: 950px;
+    width: 1602px;
+    color: aliceblue;
+    text-align: center;
+}
+.tourtext{
+    position: relative;
+    top: 100px;
+    right: 20px;
+    position: relative;
+}
+.tourtext h3{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.tourtext i{
+    color: rgb(159, 159, 159);
+    font-size: 18px ;
+    
+}
+
+.b1,.b2,.b3{
+height: 25px;
+width: 880px;
+background-color:whitesmoke;
+color: black;
+display: grid;
+text-align: left;
+position: relative;
+top: 200px;
+left: 450px;
+padding: 5px;
+line-height: 1;
+/* line height if in box a text is not in center use it to arrage text */
+}
+.b1 p,.b2 p,.b3 p{
+    font-size: 18px;
+    position: relative;
+    bottom: 15px;
+color: rgb(116, 116, 116);
+}
+
+.form{
+position: relative;
+right: 100px;
+bottom: 30px;
+}
+
+.sold-box {
+    background-color: red; 
+    color: white;
+    padding: 2px; 
+    margin-left: 10px; 
+    border-radius: 3px; 
+    font-size: 12px; 
+    font-weight: bold; 
+    font-size: 18px;
+}
+.line{
+    height: 1px;
+    width: 890px;
+    background-color: grey;
+    position: relative;
+    top: 200px;
+    left: 450px;
+}
+
+.boxes{
+    display: flex;
+    justify-content: space-evenly;
+    position: relative;
+    top: 300px;
+
+}
+.boz1 img,.boz2 img,.boz3 img{
+    width: 250px;
+}
+.boz1,.boz2,.boz3{
+    height: 410px;
+    width: 250px;
+    background-color: whitesmoke;
+    color: black;
+    position: relative;
+    bottom: 55px;
+}
+.boz1 p,.boz2 p,.boz3 p{
+    font-size: 17px;
+}
+.fo{
+    font-size: 18px;
+}
+.boz1{
+    position: relative;
+    left: 140px;
+}
+.boz3{
+    position: relative;
+    right: 140px;
+}
+
+.h1{
+    height: 50px;
+    width: 104px;
+    background-color: black;
+    color: whitesmoke;
+    position: relative;
+    left: 75px;
+    border-radius: 4px;
+
+}
+.hbt{
+position: relative;
+top: 15px;
+font-weight: bold;
+font-family: Arial, Helvetica, sans-serif;
+}
+.h1:hover{
+    background-color: grey;
+    color: black;
+}
+
+h4{
+    font-size: 17px;
+}
+
+.subtxt {
+    text-align: center;
+    position: relative;
+    top: 100px;
+    right: 100px;
+}
+.subtxt h1{
+    font-size: 35px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.subtxt p{
+    font-size: 17px;
+    color: grey;
+
+}
+.Contact{
+    width: 1800px;
+    height: 600px;
+    background-color: rgb(240, 240, 240);
+    position: relative;
+    bottom: 28px;
+}
+
+.mssg{
+    position: relative;
+    top: 10px;
+}
+.mssg1{
+    width: 360px;
+}
+.c1f::placeholder{
+font-size: 30px;
+}
+
+.email{
+    position: relative;
+    left: 10px;
+}
+.contacttext{
+    display: flex;
+    position: relative;
+    left: 450px;
+    top: 150px;
+
+}
+.dis{
+    display: flex;
+}
+.c1f{
+    position: relative;
+    left: 200px;
+    padding: 10px;
+}
+input{
+    padding: 10px;
+}
+.c1t{
+    font-size: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+line-height: 0px;
+}
+.l1{
+    position: relative;
+    right: 20px;
+    top: 10px;
+}
+.send{
+    position: relative;
+    top: 30px;
+    left: 323px;
+}
+.but{
+    background-color: black;
+    color: white;
+}
+.endimg{
+    width: 1602px;
+    height: 850px;
+    /* object-fit: cover; */
+    position: relative;
+    left: 15px;
+    top: 280px;
+filter: grayscale(50%);
+/* just like mobile filter apply shade layer on images*/
+}
+
+.fo1{
+
+    width: 30px;
+    height: 30px;
+    position: relative;
+    left: 750px;
+    top: 50px;
+}
+footer{
+    width: 1602;
+    height: 300px;
+    position: relative;
+    top: 800px;
+
+}
+footer p{
+    text-align: center;
+    position: relative;
+    left: 40px;
+    top: 50px;
+    color: grey;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.under{
+    text-decoration: underline;
+}
+
+.c1t img{
+    width: 20px;
+    height: 20px;
+}
+.logo1{
+    display: flex;
+
+}
