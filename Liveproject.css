@@ -1,0 +1,368 @@
+body{
+    padding: 0px;
+    margin: 0px;
+    overflow-y: auto;
+    overflow-x:hidden;
+}
+
+.navbar{
+    display:flex;
+    justify-content: space-between;
+    height: 62px;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+}
+.ntxt{
+    margin: 20px 10px;
+    word-spacing: 25px;
+    position: relative;
+    right: 190px;
+    text-align: center;
+    display: flex;
+}
+.logo{
+    margin: 15px 10px;
+}
+
+.smalst{
+    display: flex;
+    gap: 25px;
+   
+}
+
+.signup,.login{
+    width: 60px;
+    height: 30px;
+    background-color: blueviolet transparent;
+    position: relative;
+    left: 70px;
+    bottom: 40px;
+}
+.login{
+    border: 2px solid black;
+text-align: center;
+line-height: 30px;
+position: relative;
+bottom: 50px;
+padding: 5px;
+
+}
+.signup{
+    width: 62px;
+    height: 32px;
+    background-color: green;
+    color: white;
+    text-align: center;
+    line-height: 30px;
+    position: relative;
+bottom: 50px;
+padding: 5px;
+
+
+}
+.backimg{
+
+
+    width: 1536px;
+    height: 650px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.bline{
+    position: absolute;
+    bottom: 500px;
+    left: 30px;
+    color: aliceblue;
+    font-size: 45px;
+    line-height: 0.5;
+}
+.bline2{
+    position: absolute;
+    bottom: 450px;
+    left: 30px;
+    color: aliceblue;
+    font-size: 45px;
+    line-height: 0.5; 
+}
+
+.bline3{
+    position: absolute;
+    bottom: 60px;
+    color: white;
+    bottom: 330px;
+    left: 30px;
+    font-size: 25px;
+    line-height: 1px;
+}
+.bline,.bline2,.bline3{
+    position: absolute;
+    left: 80px;
+}
+
+.bit{
+    position: relative;
+    top: 85px;
+}
+
+
+.form{
+    width: 500px;
+    height: 400px;
+    background-color: aliceblue;
+    position: absolute;
+    left: 900px;
+    bottom: 175px;
+    border-radius: 7px;
+
+    
+}
+.f1,.f2,.f3{
+    display: flex;
+    gap: 20px;
+    position: relative;
+    left: 70px;
+    top: 30px;
+}
+
+.daba1,.daba2,.daba3{
+    display: block;
+    
+}
+.submit{
+    position: relative;
+    top: 70px;
+    text-align: center;
+}
+
+.buttonva{
+    width:  140px;
+    text-indent: -30px;  
+    background-color: rgb(10, 91, 179);
+    color: aliceblue;
+    border-radius: 5px;
+    font-size: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+    /* text indent shifts word inside box without moving box */
+}
+
+
+label{
+    font-size: 20px;
+font-weight: bold;
+color: rgb(120, 119, 119);
+font-family: 'Calibri', 'Segoe Script';
+}
+input{
+    padding: 8px;
+    position: relative;
+    top: 6px;
+    background-color: rgb(240, 239, 239);
+    border: 1px solid grey;
+}
+
+.sub1{
+    width: 40px;
+    height: 30px;
+    position: relative;
+    left: 270px;
+    top: 40px;
+}
+.f3{
+    position: relative;
+    top: 40px;
+}
+textarea{
+    background-color: rgb(240, 239, 239);
+    border: 1px solid grey;
+}
+
+::placeholder{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.holder{
+    display: flex;
+    justify-content: space-around;
+    height: 550px;
+    background-color: rgb(225, 224, 224);
+    position: relative;
+    bottom: 10px;
+}
+
+.mid1,.mid2,.mid3{
+    height: 120px;
+    width: 120px;
+    position: relative;
+    top: 100px;
+}
+.mid3{
+    position: relative;
+    left: 115px;
+}
+.mid1{
+    position: relative;
+    left: 115px;
+
+}
+.mid2{
+    position: relative;
+    left: 95px;
+}
+
+.split1{
+    display: block;
+}
+
+.splittxt{
+    position: relative;
+    top: 100px;
+    font-size: 20px;
+    text-align: center;
+}
+.para1{
+    position: relative;
+    top: 100px;
+    font-size: 22px;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif  ;
+    color: rgb(137, 135, 135);
+}
+
+
+.third{
+    height: 500px;
+    width: 750px;
+    background-color: rgb(255, 255, 255);
+    position: relative;
+    bottom: 50px;
+}
+
+.thead{
+    font-size: 22px;
+}
+.thirdmaterial{
+    position: relative;
+    top: 125px;
+    margin: 40px;
+    left: 18px;
+
+}
+.p1,.p2,.p3{
+    font-size: 23px;
+    font-family:  'Calibri', 'Segoe Script' ;
+color: rgb(146, 146, 146);
+}
+.p1{
+    position: relative;
+    top: 15px;  
+}
+.p3{
+    position: relative;
+    bottom: 15px;  
+}
+
+.thirdimg{
+    height: 500px;
+    width: 800px;
+    position: absolute;
+    left: 750px;
+    bottom: 0px;
+}
+.thirdimg2{
+    height: 500px;
+    width: 750px;
+    position: relative;
+    top: 235px;
+
+}
+.thirdmaterial2{
+position: relative;
+left: 900px;
+margin: 40px;
+bottom: 190px;
+
+}
+.p31{
+    position: relative;
+    bottom: 28px; 
+    font-size: 23px;
+    font-family:  'Calibri', 'Segoe Script' ;
+color: rgb(146, 146, 146);
+}
+
+.thirdimg3{
+    height: 500px;
+    width: 770px; 
+    position: absolute;
+    top: 998px;
+    left: 750px;
+}
+
+
+.thirdmaterial3{
+    margin: 40px;
+    position: relative;
+    left: 70px;
+    top: 30px;
+    
+}
+
+.thead9{
+    font-size: 22px;
+}
+
+.z1,.z2,.z3,.z4,.z5{
+    font-size: 23px;
+    font-family:  'Calibri', 'Segoe Script' ;
+color: rgb(146, 146, 146);
+}
+
+.z1{
+    position: relative;
+    top: 10px;
+}
+.z2{
+    position: relative;
+    bottom: 5px; 
+}
+.z3{
+    position: relative;
+    bottom: 20px; 
+}
+.z4{
+    position: relative;
+    bottom: 35px;
+}
+.z5{
+    position: relative;
+    bottom: 50px;
+}
+
+
+.fourth{
+    width: 1520px;
+    height: 500px;
+    background-color: rgb(242, 241, 243);
+    position: absolute;
+    top: 2754px;
+    text-align: center;
+}
+
+.f11{
+    font-size: 25px;
+    text-align: center;
+    position: relative;
+}
+.f22{
+    font-size: 25px;
+    font-family:  'Calibri', 'Segoe Script' ;
+        position: relative;
+    color: rgb(146, 146, 146);
+
+}
+.split1,.split2{
+    position: relative;
+    top: 20px;
+}
+
+
