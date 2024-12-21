@@ -1,0 +1,440 @@
+body{
+    background-color: rgb(194, 188, 188);
+   
+    
+}
+.sec1{
+    height: 174vh;
+    width: 450px;
+    background-color: white;
+  margin: 20px;
+  position: relative;
+  left: 45px; 
+  box-shadow: 5px 5px 10px black;
+    
+}
+
+.sec2{
+    height:700px ;
+    width:850px ;
+    background-color:white;
+   margin: 20px 0px ;
+   position: relative;
+  left: 45px;
+  box-shadow: 5px 5px 10px black;
+ 
+}
+
+.sec3{
+height: 590px;
+width: 850px;
+margin: 0px 45px;
+background-color: white;
+box-shadow: 5px 5px 10px black;
+
+
+}
+
+.sec2,.sec3{
+display: block;
+}
+
+
+.main{
+    display: flex;
+}
+.profile{
+    width: 450px;
+    height: 400px;
+}
+
+
+
+h4{
+    color: grey;
+    position: relative;
+    bottom: 5px;
+    font-size: 18px;
+}
+
+.text1{
+    position: relative;
+    top: 25px;
+}
+
+.briefcase {
+    width: 50px; 
+    height: 50px;
+    padding: 20px;
+    
+}
+
+.logo1{
+    display: flex;
+   
+}
+
+.Home {
+    width: 50px; 
+    height: 50px;
+    padding: 20px;
+    
+}
+
+.logo2{
+    display: flex;
+   
+}
+
+
+.Email {
+    width: 50px; 
+    height: 50px;
+    padding: 20px;
+    
+}
+
+.logo3{
+    display: flex;
+   
+}
+
+.Phone {
+    width: 50px; 
+    height: 50px;
+    padding: 20px;
+    
+}
+
+.logo4{
+    display: flex;
+   
+}
+
+.logo2,.logo3,.logo4{
+    position: relative;
+    bottom: 15px;
+}
+.line{
+    height: 1px;
+width: 400px;
+    background-color: rgb(230, 226, 226);
+}
+
+.Skillshead{
+    display: flex;
+   
+}
+.skill {
+    width: 50px; 
+    height: 50px;
+    padding: 20px;
+    
+}
+h2{
+    color: rgb(112, 111, 111);
+    position: relative;
+    top: 10px;
+}
+
+
+.box1{
+    height: 20px;
+    width: 400px;
+    border-radius: 10px;
+    background-color:rgb(213, 213, 213);
+   z-index: -1;
+  
+}
+.p2{
+    width: 350px;
+    border-radius: 10px;
+    height: 20px;
+background-color: #36a392;
+position: relative;
+bottom: 36px;
+text-align: center;
+color: white;
+}
+
+.skill1{
+    margin: 20px;
+
+}
+.adobetext{
+    position: relative;
+    top: 3px
+}
+
+.pa{
+    width: 310px;
+    border-radius: 10px;
+    height: 20px;
+background-color: #36a392;
+position: relative;
+bottom: 36px;
+text-align: center;
+color: white;
+}
+
+
+.skill2{
+    margin: 20px;
+    position: relative;
+    bottom: 30px;
+}
+.Photography{
+    position: relative;
+    top: 3px
+}
+
+.pb{
+    width: 280px;
+    border-radius: 10px;
+    height: 20px;
+background-color: #36a392;
+position: relative;
+bottom: 36px;
+text-align: center;
+color: white;
+}
+
+
+.skill3{
+    margin: 20px;
+    position: relative;
+    bottom: 60px;
+}
+.Illustrator{
+    position: relative;
+    top: 3px
+}
+
+.pc{
+    width: 225px;
+    border-radius: 10px;
+    height: 20px;
+background-color: #36a392;
+position: relative;
+bottom: 36px;
+text-align: center;
+color: white;
+}
+
+
+.skill4{
+    margin: 20px;
+    position: relative;
+    bottom: 90px;
+}
+.Media{
+    position: relative;
+    top: 3px
+}
+
+.workimg{
+    width: 50px; 
+    height: 50px;
+    padding: 20px;
+}
+.w1{
+    display: flex;
+}
+.w1text{
+    
+    font-size: 20px;
+}
+
+.exp1{
+font-size: 18px;
+}
+
+h3{
+    color: rgb(78, 78, 78);
+    position: relative;
+    left: 30px;
+}
+
+.exp2{
+    display: flex;
+    position: relative;
+    left: 10px;
+}
+.calendar{
+    width: 30px;
+    height: 30px;
+    margin: 0px 20px;
+}
+
+.w2Text{
+position: relative;
+bottom: 10px;
+color: #36a392;
+}
+
+.p6{
+
+    font-size: 17px;
+}
+.p3{
+    position: relative;
+    left: 20px;
+    bottom: 16px;
+    font-size: 20px;
+    width: 70px;
+    height: 25px;
+    border-radius: 5px;
+    background-color: #36a392;
+    text-align: center;
+    color: white;
+}
+
+.para1{
+    font-size: 17px;
+    margin: 20px;
+    position: relative;
+    bottom: 30px;
+    left: 10px;
+}
+
+.brkline{
+    
+        height: 1px;
+    width: 800px;
+        background-color: rgb(230, 226, 226);
+    margin: 20px;
+    position: relative;
+    bottom: 10px;
+}
+
+.exp4,.exp5{
+    display: flex;
+    position: relative;
+    left: 10px;
+}
+
+.crazy{
+    width: 1000px;
+
+}
+.footer1{
+    position: relative;
+    top: 10px;
+    right: 10px;
+    
+}
+.icons{
+    display: flex;
+    justify-content: space-evenly;
+    width:30px ;
+    height: 30px;
+}
+
+.f1{
+  
+    color: white;
+    font-size: 25px;
+    text-align: center;
+    padding: 20px;
+}
+
+.allin{
+    display: flex;
+   
+}
+.sym1{
+    width: 30px;
+    height: 30px;
+    position: relative;
+    bottom: 160px;
+    left: 690px;
+}
+
+.end{
+    color: white;
+    font-size: 25px;
+    text-align: center;
+       position: relative;
+       bottom: 140px;
+       left: 15px;
+}
+
+
+.workimg1{
+    width: 60px; 
+    height: 60px;
+    padding: 20px;
+}
+.e1{
+    position: relative;
+    right: 10px;
+}
+
+.exp51{
+    display: flex;
+    position: relative;
+    left: 10px;
+}
+
+.exp91,.exp51,.para11{
+    position: relative;
+    bottom: 20px;
+}
+.para11{
+    position: relative;
+    left: 30px;
+    bottom: 40px;
+}
+
+.sep{
+    height: 1px;
+    width: 800px;
+    background-color: rgb(209, 209, 209);
+    margin: 0 auto;
+    position: relative;
+    bottom: 20px;
+}
+
+.l1{
+    position: relative;
+    bottom: 15px;
+}
+
+.crazy{
+    position: relative;
+bottom: 30px;
+}
+
+.sec2{
+    position: relative;
+    left: 70px;
+}
+.sec3{
+    position: relative;
+    left: 25px;
+}
+
+.footer1{
+    background-color: #36a392;
+    position: relative;
+    width: 1520px;
+    height: 200px;
+    top: 20px;
+    box-shadow: 5px 5px 10px black;
+
+}
+
+.end
+{
+    position: relative;
+    top: 15px;
+    text-align: center;
+}
+
+.sym2{
+    width: 30px;
+    height: 30px;
+    position: relative;
+    left: 690px;
+}
+
